@@ -1,0 +1,524 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
+
+.logo-image {
+  width: 35px;
+  height: 35px;
+  margin: 60px;
+  justify-content: space-between;
+}
+
+.about-page {
+  width: 30px;
+  height: 30px;
+
+  margin: 20px;
+}
+
+.bg-image {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* position: absolute; */
+  background-image: url("../Image/Smiling.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  margin: 100%;
+  height: 267%;
+  width: 403%;
+  margin-left: -611px;
+  margin-top: 100px;
+  /* margin-right: 39px; */
+}
+
+.page-view {
+  margin-top: 0px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 424px;
+  height: 320px;
+  /* background-color: white; */
+  /* opacity: 0.1; */
+  padding: 50px;
+  color: black;
+  text-align: center;
+}
+
+.form-container {
+  
+  margin-left: -345px;
+  margin-top: 397px;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 424px;
+  height: 401px;
+  background-color: white;
+  /* opacity: 0.1; */
+  padding: 50px;
+  color: black;
+  text-align: center;
+  /* opacity: 0.6; */
+}
+
+.white-box {
+  /* position: absolute; */
+  border: none;
+  /* background-color: green; */
+  /* width: 100%;
+    height: 80%;
+    top: 40;
+    left: 40;
+    right: 40;
+    bottom: 40;
+    /* opacity: 0.5; */
+  /* background-color: rgba(0, 255, 0, 0.5);   */
+}
+
+.text {
+  font-size: 3.75rem;
+}
+
+.align-text {
+  font-size: 1em;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn-read {
+  color: #ffffff !important;
+  background-color: #fc052e !important;
+  border-radius: 30%;
+  width: 241px;
+  height: 55px;
+  border-radius: 25px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.body-text {
+  font-size: 20px;
+  margin-top: 72%;
+  text-align: left;
+}
+
+.txt {
+  margin-top: -6%;
+  font-size: 3.75rem;
+  text-align: left;
+}
+
+.body-content {
+  font-size: 20px;
+  color: grey;
+  display: flex;
+  text-align: left;
+}
+
+.vl {
+  border-right: 8px solid #fc052e;
+  height: 650px;
+  margin-right: -191px;
+  margin-top: -87%;
+  position: relative;
+}
+
+.btn-learn {
+  color: #ffffff !important;
+  background-color: #fc052e !important;
+  border-radius: 30%;
+  width: 241px;
+  height: 55px;
+  border-radius: 25px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
+  align-items: left;
+  float: left;
+}
+
+/* .container{
+  flex-basis: right;
+  justify-content: space-evenly;
+  float: right;
+  padding: 30%;
+} */
+
+.align-right {
+  /* margin-right: -1022px; */
+  /* text-align: right;
+  display: flex;
+  justify-content: space-between; */
+  width: 238%;
+  /* margin-right: -1022px; */
+  line-height: 2.2;
+  margin: 0 auto 0 0;
+  font-size: 20px;
+  text-align: left;
+}
+
+.body {
+  margin-top: 30px;
+}
+
+.container {
+  max-width: 50%;
+  min-width: 50%;
+
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#aboutus-rightpanel {
+  height: 128%;
+  width: 161%;
+  position: relative;
+  bottom: 144%;
+  left: 174%;
+  border: 0;
+}
+
+.background-layout {
+  margin-top: -129%;
+  /* top: 38%; */
+  margin-left: -74%;
+  background-color: #fc052e !important;
+  background-size: cover;
+  height: 285%;
+  width: 410%;
+  overflow-x: noscroll;
+  /* overflow-y: hidden; */
+  background-repeat: no-repeat;
+}
+
+.background-layout-text {
+  left: 3%;
+  position: relative;
+  bottom: -8%;
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 700;
+  width: 800px;
+  margin: 58px auto 0;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  gap: 10px;
+  top: 0%;
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  gap: 10px;
+}
+.box {
+  background: border-box;
+  bottom: 20%;
+  box-sizing: border;
+  padding: 30px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* margin-left: 208px; */
+  background-color: white;
+  bottom: 21%;
+  top: 385px;
+  left: 9%;
+  width: 11%;
+  height: -2%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+
+h3 {
+  font-size: xx-large;
+  font-weight: 800;
+  margin: 0;
+  color: #fc052e;
+}
+
+h6 {
+  margin-top: 32%;
+  text-align: left;
+  /* margin-bottom: -33%; */
+  margin-left: 26%;
+  /* left: 30%; */
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+/* .box2 {
+  margin-top: -310px;
+  margin-left: -137px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+
+.box3 {
+  margin-top: -201px;
+  margin-left: 95px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+
+.box4 {
+  margin-top: 10px;
+  margin-left: -140px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  position: relative;
+} */
+
+/* .layout{
+  width: 300px;
+  height: 200px;
+  background-color: white;
+}
+
+.container1{
+  border: none;
+  margin-left: 131px;
+  background-color: green;
+  width: 300px;
+  height: 400px;
+  margin-top: 218px;
+} */
+
+.upper-half {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .outer-box {
+  margin-left: 12%;
+   margin-top: 127%;
+  border: 3px solid white;
+  width: 26%;
+  height: 26%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}  */
+
+
+
+/* .inner-box {
+  margin-left: 20%;
+  padding: 30px;
+  width: 83%;
+  border: 1px solid;
+
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: white;
+} */
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.display1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  height: 56%;
+}
+
+.bullets {
+  list-style-type: none;
+}
+
+h5 {
+  color: #fc052e;
+
+  cursor: pointer;
+  /* display: inline; */
+
+  font-size: 16px;
+
+  font-weight: 700;
+}
+
+.bg-text {
+  bottom: 20%;
+}
+
+.meet-text {
+  margin-right: -165%;
+  margin-top: -69%;
+  /* right: 82%; */
+  color: white;
+  font-size: 50px;
+}
+
+.iff {
+  margin-top: -14%;
+  margin-right: -165%;
+  color: white;
+}
+
+ /* .inner-box-container {
+   margin-left: 1%; 
+  text-align: center;
+  margin-left: 28%;
+  color: #111111;
+  background-color: #f2f2f2;
+  width: 79%;
+  height: 29%;
+  margin-top: -30%;
+  margin-right: 3%;
+}  */
+
+
+/* .inner-box-container2 {
+  text-align: center;
+  margin-left: 28%;
+  color: #111111;
+  background-color: #f2f2f2;
+  width: 79%;
+  height: 29%;
+  margin-top: -30%;
+  margin-right: 3%;
+} */
+
+/*.inner-box3 {
+   position: relative;
+  flex: 1;
+  max-width: 100%;
+  transition-duration: inherit; */
+  /* margin-left: 363%;
+  padding: 30px;
+  width: 152%;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+  height: 164%;
+  background-color: white;
+}
+
+.inner-box-container3 {
+  padding: 0%;
+  text-align: center;
+  margin-left: 28%;
+  color: #111111;
+  background-color: #f2f2f2;
+  width: 150%;
+  height: 47%;
+  margin-top: -87%;
+  /* margin-right: -39%; */
+  /* margin-left: 387%;
+} */ 
+
+/* Design.css */
+
+/* ... Your existing CSS styles ... */
+
+/* Styles for "Our Way" section */
+.our-way {
+  padding: 40px 0;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.our-way-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.our-way-text {
+  font-size: 16px;
+  color: #666;
+  margin-top: 20px;
+}
+
+/* Styles for "Our Way" cards */
+.our-way-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.our-way-card {
+  width: calc(25% - 20px);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.orange-circle {
+  background-color:  #fc052e;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.year {
+  font-size: 18px;
+  color: #fff;
+}
+
+.our-way-content p {
+  font-size: 14px;
+  color: #333;
+}
+
+
+.ourvalue{
+  position: relative;
+  right: 0%;
+}
+
+/* ... Your existing CSS styles ... */
+
+.row{
+  width: 1024px;
+}
+
+.outer-box{
+  width: 30%;
+    display: inline-block;
+    /* margin-left: 3%; */
+}
